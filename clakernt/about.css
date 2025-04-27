@@ -1,0 +1,81 @@
+body {
+
+  background-color: black;
+
+}
+
+#MYPIC {
+
+    width: 269PX;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    
+ 
+ }
+ .fade-float {
+    opacity: 0; /* Initially invisible */
+    animation: fadeInFloat 2s ease-in-out both;
+  }
+  
+  @keyframes fadeInFloat {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Adjust initial vertical position */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px); /* Return to original position */
+    }
+  }
+  h1 {
+
+    color: greenyellow;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    top: 55vh;
+    left: 25vw;
+
+    animation: fadeInUp 2s ease-in-out both;
+  }
+ 
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #about{
+   
+    
+    position: absolute;
+    top: 68vh;
+    left: 0vw;
+    
+   
+
+  }
+  p {
+
+    color: white;
+    font-weight: lighter;
+    line-height: 4vh;
+    text-align: center;
+    animation: fadeInUp 2s ease-in-out both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  #back {
+
+    width: 50px;
+    margin-top: 0px;
+
+  }

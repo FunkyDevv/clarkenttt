@@ -1,0 +1,158 @@
+body {
+
+   background-color: black;
+ 
+}
+
+
+
+
+#MYPIC {
+
+  width: 265px;
+  position: absolute;
+  top: 16vh;
+  left: 13vw;
+  
+  animation: slideRight 1s ease-in-out both;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%); /* Start 100% off-screen to the left */
+  }
+  to {
+    transform: translateX(0); /* End at 0% on-screen (right position) */
+  }
+}
+
+
+ 
+
+h5 {
+
+color: white;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+
+position: absolute;
+left: 4vw;
+margin-top: 6px;
+
+animation: slide-in-left 1s ease-in-out forwards;
+
+}
+@keyframes slide-in-left {
+   from {
+     opacity: 0;
+     transform: translateX(100%); /* Start from 100% off-screen (right) */
+   }
+   to {
+     opacity: 1;
+     transform: translateX(0); /* End at 0% (left), on-screen position */
+   }
+ }
+
+
+ #intro {
+   position: absolute;
+   top: 48vh;
+   left: 12vw;
+   
+   animation: slideRight 1s ease-in-out both;
+ }
+ 
+ @keyframes slideRight {
+   from {
+     transform: translateX(-100%); 
+   }
+   to {
+     transform: translateX(0); 
+   }
+ }
+ 
+ 
+ span {
+ 
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h6 {
+   
+   font-weight: bolder;
+   position: relative;
+   top: 6vh;
+   color: greenyellow  ;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+
+
+h1 {
+
+   position: relative;
+   top: 1vh;
+   left: 0px;
+   color: greenyellow;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 45px;
+   line-height: 7vh;
+
+  
+  
+}
+
+
+p{
+
+   color: white;
+   font-size: 16px;
+   font-weight: normal;
+   position: absolute;
+   top: 30vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 3vh;
+
+  
+}
+
+
+
+#ab {
+
+   position: absolute;
+   left: 82vw;
+   top: 2vh;
+}
+
+#about, #pro {
+   animation: slide-in-left 1s ease-in-out forwards; /* Animation properties */
+   border: 1px solid white;
+   background-color: greenyellow;
+   color:black;
+   font-weight: normal;
+   border-radius: 4px;
+ }
+ @keyframes slide-in-left {
+   from {
+     opacity: 0;
+     transform: translateX(100%); /* Start from 100% off-screen (right) */
+   }
+   to {
+     opacity: 1;
+     transform: translateX(0); /* End at 0% (left), on-screen position */
+   }
+ }
+ 
+ #lesson {
+
+   position: absolute;
+   left: 64vw;
+   top: 2vh;
+
+}
+
+  
